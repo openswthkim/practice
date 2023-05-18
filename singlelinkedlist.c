@@ -19,9 +19,9 @@ int main() {
     head->data = 0;
     head->nextNode = NULL;
 
-   for (int i = 1; i <= n; i++)
+   for (int i = 1; i <= n; i++){
       insertNode(head, i);
-
+   }
    printNode(head);
 
    freeNode(head);
